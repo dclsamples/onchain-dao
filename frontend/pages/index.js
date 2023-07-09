@@ -285,7 +285,8 @@ export default function Home() {
 
 	if (!isConnected)
 		return (
-			<div>
+			<div className={styles.connectButton}>
+				<h1>Please connect your wallet:</h1>
 				<ConnectButton />
 			</div>
 		);

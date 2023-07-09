@@ -126,6 +126,12 @@
   transform: translateZ(0);
 }
 
+.connectButton{
+  margin:10px;
+  padding:20px;
+  height: 100vh;
+}
+
 .logo {
   position: relative;
 }
